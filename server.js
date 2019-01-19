@@ -4,7 +4,7 @@ const app = express();
 
 var http = require("http");
 
-app.use(express.static(__dirname + 'public//dist/public'));
+app.use(express.static(__dirname + '/public/dist/public'));
 
 app.get('/*', function(req,res) {
     
