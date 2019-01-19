@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { SpotsComponent } from './spots/spots.component';
 import { OnlineComponent } from './online/online.component';
 import { ContactComponent } from './contact/contact.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SpotsComponent,
     OnlineComponent,
-    ContactComponent
+    ContactComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
