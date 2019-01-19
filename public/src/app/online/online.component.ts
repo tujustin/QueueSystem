@@ -10,6 +10,7 @@ export class OnlineComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }
