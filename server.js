@@ -4,11 +4,11 @@ const app = express();
 
 var http = require("http");
 
-app.use(express.static(__dirname + '/dist/sample-app'));
+app.use(express.static(__dirname + 'public//dist/public'));
 
 app.get('/*', function(req,res) {
     
-    res.sendFile(path.join(__dirname+'/dist/sample-app/index.html'));
+    res.sendFile(path.join(__dirname+'/public/dist/public/index.html'));
 });
 
 
@@ -18,10 +18,3 @@ app.get('/*', function(req,res) {
 
 app.listen(8000);
 
-setInterval(function() {
-    // var d = new Date();
-    // var n = parseInt(d.getUTCHours());
-    // if (n <= 4 || n >= 11) {
-        http.get("http://katweb123.herokuapp.com");
-    // }
-}, 1200000); // every 10 min
