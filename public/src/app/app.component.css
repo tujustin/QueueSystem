@@ -96,4 +96,6 @@ body {
     transform: scaleY(1);
   }
   
-  
+  #login, register{
+    text-align: right;
+  }
