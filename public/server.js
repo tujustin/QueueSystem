@@ -4,11 +4,11 @@ const app = express();
 
 var http = require("http");
 
-app.use(express.static(__dirname + '/public/dist/public'));
+app.use(express.static(__dirname + '/dist/public'));
 
 app.get('/*', function(req,res) {
     
-    res.sendFile(path.join(__dirname+'/public/dist/public/index.html'));
+    res.sendFile(path.join(__dirname+'/dist/public/index.html'));
 });
 
 
@@ -16,5 +16,5 @@ app.get('/*', function(req,res) {
 //     res.sendFile(path.resolve('/dist/sample-app/index.html'));
 // });
 
-app.listen(8000);
+app.listen(8001);
 
