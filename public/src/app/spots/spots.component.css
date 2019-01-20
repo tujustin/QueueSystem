@@ -13,3 +13,13 @@ div.col{
     color: white;
     padding: 5px;
 }
+
+#btn1,btn2{
+    vertical-align: baseline;
+}
+
+.added_name{
+    /* min-height: 400px; */
+    /* overflow: scroll; */
+
+}

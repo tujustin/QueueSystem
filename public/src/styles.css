@@ -1,2 +1,4 @@
-
-
+.added_name{
+    min-height: 40%;
+    overflow-y: scroll;
+}
