@@ -1,0 +1,14 @@
+form {
+    padding: 20px 50px;
+}
+.login {
+    width: 45%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.register {
+    width: 45%;
+    display:inline-block;
+    vertical-align: top;
+}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {HttpService} from '../http.service';
 
 @Component({
   selector: 'app-spots',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./spots.component.css']
 })
 export class SpotsComponent implements OnInit {
-
+  _http: HttpService;
   constructor() { }
 
   ngOnInit() {
   }
+
+  
 
 }
