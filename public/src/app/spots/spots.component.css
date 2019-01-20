@@ -1,5 +1,5 @@
 div.widthLimiter {
-    width: 75%;
+    width: 25%;
     margin: 50px auto 0 auto;
     border: 2px solid #18453b;
     border-radius: 3px;
@@ -11,5 +11,47 @@ div.col{
     position: sticky;
     background-color: #18453b;
     color: white;
+    padding: 10px;
+}
+
+div.posInQueue {
+    text-align: center;
+    font-size: 24px;
+}
+
+button.inclassOrOnline {
+    font-size: 16px;
+    background-color: #6d757d;
     padding: 5px;
+    border: 1px solid #6d757d;
+    border-radius: 4px;
+    width: 120px;
+    text-align: center;
+    color: white;
+}
+
+button.location {
+    font-size: 16px;
+    background-color: #6d757d;
+    padding: 5px;
+    border: 1px solid #6d757d;
+    border-radius: 4px;
+    width: 120px;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+div.input-group {
+    width: 100%;
+}
+span.input-group-text {
+    background-color: #6d757d;
+    color: white;
+    border: none;
+}
+
+p {
+    font-size: 100%;
+    margin: 0;
 }

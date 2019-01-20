@@ -1,36 +1,51 @@
-
+  <div class="posInQueue">Your position in the queue:</div>
   <div class="container-fluid">
     <div class="row">
       
       <div class="widthLimiter">
-
+          <div class="col">
+            <p>Enter Your Information to Join the Queue</p>
+          </div>
           <div class="col">
               <div class="input-group">
                   <div class="input-group-prepend">
-                    <button class="btn btn-secondary" type="button">Proj. Description</button>
+                    <span class="input-group-text">Project #</span>
                   </div>
-                  <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
-              </div>
+                  <input type="text" class="form-control">
+                  <div class="input-group-append">
+                    <span class="input-group-text">Submit</span>
+                  </div>
+                </div>
           </div>
 
         <div class="col">
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle"
-                        type="button" id="dropdownMenu1" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                  Date
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                  <a class="dropdown-item" href="#!">January 19</a>
-                  <a class="dropdown-item" href="#!">January 20</a>
-                </div>
-              </div>
+            <select class="custom-select">
+                <option selected>Select a Date</option>
+                <option value="1">January 19, 2019</option>
+                <option value="2">January 20, 2019</option>
+                <option value="3">January 21, 2019</option>
+                <option value="4">January 22, 2019</option>
+                <option value="5">January 23, 2019</option>
+                <option value="6">January 24, 2019</option>
+                <option value="7">January 25, 2019</option>
+              </select>
         </div>
 
         <div class="col">
-          Location
+          <!-- <button class="inclassOrOnline">
+            Inclass/Online
+          </button> -->
+          <select class="custom-select">
+              <option selected>Choose Help Method</option>
+              <option value="1">Help Room</option>
+              <option value="2">Online</option>
+            </select>
         </div>
-
+        <div class="col">
+            <button class="location">
+              Location
+            </button>
+        </div>
       </div>
 
     </div>
