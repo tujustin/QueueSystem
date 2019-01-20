@@ -1,29 +1,27 @@
-<<<<<<< HEAD
-  <div class="posInQueue">Your position in the queue:</div>
-=======
-
-
-
-
->>>>>>> 2e3b326e176f0740e7b51b19640bda761e0d530f
+<div class="posInQueue">Your position in the queue:</div>
   <div class="container-fluid">
     <div class="row">
       
       <div class="widthLimiter">
           <div class="col">
+              <p> {{reg | json}}</p>
             <p>Enter Your Information to Join the Queue</p>
           </div>
           <div class="col">
+            <form (submit)="submitButton()">
               <div class="input-group">
                   <div class="input-group-prepend">
                     <span class="input-group-text">Project #</span>
+                    <input type="text" class="input-group-text" name="reg.Project_Name" [(ngModel)]="reg.Project_Name">
                   </div>
-                  <input type="text" class="form-control">
+                  <!-- <input type="text" class="form-control"> -->
                   <div class="input-group-append">
-                    <span class="input-group-text">Submit</span>
+                      <!-- <button id="submit_button" type="button" class="btn btn-secondary">Submit</button> -->
                   </div>
                 </div>
+            </form>
           </div>
+
 
         <div class="col">
             <select class="custom-select">
@@ -54,8 +52,6 @@
               Location
             </button>
         </div>
-<<<<<<< HEAD
-=======
         <!-- <button id="btn1" class="float-right">Append text</button> -->
         <button id="btn2" class="float-right">Append list item</button>
 
@@ -70,7 +66,6 @@
           </ol>
           
         </div>
->>>>>>> 2e3b326e176f0740e7b51b19640bda761e0d530f
       </div>
 
     </div>
